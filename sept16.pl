@@ -13,7 +13,7 @@ while(<>) {
 #$_ is the default variable in Perl which holds the current line. The programs knows that it has to run the regular expression against $_
 	next unless (/[\s\S]*$eng[\s\S]*/);
 #Print "Engineering Health Captured!" Notice how the eng variable is used inside the print statement.
-    print "$eng Captured!";
+	print "$eng Captured!";
 #Exits the while loop. Kind of a goto statement, takes the loop execution to the last statement.
-    last;
+	last;
 }
