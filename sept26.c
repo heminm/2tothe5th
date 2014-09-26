@@ -1,3 +1,4 @@
+/* check http://ideone.com/Nne6G9 for output */
 int f(int k,char c){return k?f(k-printf("%c",c),c):0;}
 int main(){
 	char m[]="nnjfenjddddeeeeeeeeeedeeeeeeeeeedeeeeeeeeeedeeeeeeeeeedenkeeenkdddeeeeeeeeeedeeeeeeeeeedeeeeeeeeeedeeeeeeeeeednneeefneed";
