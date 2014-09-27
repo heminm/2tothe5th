@@ -1,8 +1,8 @@
-/* check http://ideone.com/Nne6G9 for output */
+/* check http://ideone.com/4kvth6 for output */
 int f(int k,char c){return k?f(k-printf("%c",c),c):1;}
 int main(){
 	char m[]="nnjfenjddddeeeeeeeeeedeeeeeeeeeedeeeeeeeeeedeeeeeeeeeedenkeeenkdddeeeeeeeeeedeeeeeeeeeedeeeeeeeeeedeeeeeeeeeednneeefneed";
-	char n[]="iinniidddrrimemirirrjlflirjrrjlgkirjrrjlhjirjrimiiiiddrrimjhirirrjlkgirjrrkklfirjrrljmeirliiminiimd";
+	char n[]="iinniidddrrimemirirrjlflirjrrjlgkirjrrjlhjirjrimiiiiddrrimjhirirrjlkgirjrrkklfirkrrljmeirliiminiimd";
 	int i,j,k,l;
 	for(i=0;i<11;i++,l=j=k=0,printf("\n"))
 		while(m[i*11+j]-100)
